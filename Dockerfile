@@ -7,5 +7,5 @@ WORKDIR /opt/apache-tomcat-8.5.100
 ADD https://bucketfff.s3.amazonaws.com/student.war webapps/student.war
 EXPOSE 8080
 CMD ["bin/catalina.sh" ,"run"]
-
+hii
 
